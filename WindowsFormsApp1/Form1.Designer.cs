@@ -28,76 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.openLine = new System.Windows.Forms.Label();
+            this.Line2 = new System.Windows.Forms.Label();
+            this.madeBy = new System.Windows.Forms.Label();
+            this.FourWheelsButton = new System.Windows.Forms.Button();
+            this.TwoWheelsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // openLine
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(1749, 214);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(90, 29);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Year";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.openLine.AutoSize = true;
+            this.openLine.BackColor = System.Drawing.Color.Transparent;
+            this.openLine.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.openLine.ForeColor = System.Drawing.Color.RosyBrown;
+            this.openLine.Location = new System.Drawing.Point(83, 9);
+            this.openLine.Name = "openLine";
+            this.openLine.Size = new System.Drawing.Size(590, 37);
+            this.openLine.TabIndex = 0;
+            this.openLine.Text = "Welcome to vehicle reccomandations";
             // 
-            // checkedListBox1
+            // Line2
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(1749, 319);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(145, 228);
-            this.checkedListBox1.TabIndex = 2;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            this.Line2.AutoSize = true;
+            this.Line2.BackColor = System.Drawing.Color.Transparent;
+            this.Line2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.Line2.ForeColor = System.Drawing.Color.MistyRose;
+            this.Line2.Location = new System.Drawing.Point(164, 46);
+            this.Line2.Name = "Line2";
+            this.Line2.Size = new System.Drawing.Size(387, 22);
+            this.Line2.TabIndex = 1;
+            this.Line2.Text = "What kind of vehicle are you looking for?";
             // 
-            // checkBox2
+            // madeBy
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(1749, 284);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(150, 29);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.madeBy.AutoSize = true;
+            this.madeBy.BackColor = System.Drawing.Color.Transparent;
+            this.madeBy.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.madeBy.ForeColor = System.Drawing.Color.RosyBrown;
+            this.madeBy.Location = new System.Drawing.Point(303, 621);
+            this.madeBy.Name = "madeBy";
+            this.madeBy.Size = new System.Drawing.Size(80, 14);
+            this.madeBy.TabIndex = 2;
+            this.madeBy.Text = "made by ANA";
             // 
-            // checkBox3
+            // FourWheelsButton
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(1749, 179);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(101, 29);
-            this.checkBox3.TabIndex = 4;
-            this.checkBox3.Text = "Brand";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.FourWheelsButton.BackColor = System.Drawing.Color.DarkGray;
+            this.FourWheelsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FourWheelsButton.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.FourWheelsButton.Location = new System.Drawing.Point(81, 147);
+            this.FourWheelsButton.Name = "FourWheelsButton";
+            this.FourWheelsButton.Size = new System.Drawing.Size(189, 54);
+            this.FourWheelsButton.TabIndex = 3;
+            this.FourWheelsButton.Text = "Four Wheels";
+            this.FourWheelsButton.UseVisualStyleBackColor = false;
+            this.FourWheelsButton.Click += new System.EventHandler(this.FourWheelsButton_Click);
             // 
-            // checkBox4
+            // TwoWheelsButton
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(1749, 249);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(101, 29);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.Text = "Doors";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            this.TwoWheelsButton.BackColor = System.Drawing.Color.DarkGray;
+            this.TwoWheelsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TwoWheelsButton.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.TwoWheelsButton.ForeColor = System.Drawing.Color.Black;
+            this.TwoWheelsButton.Location = new System.Drawing.Point(475, 149);
+            this.TwoWheelsButton.Name = "TwoWheelsButton";
+            this.TwoWheelsButton.Size = new System.Drawing.Size(189, 54);
+            this.TwoWheelsButton.TabIndex = 4;
+            this.TwoWheelsButton.Text = "Two Wheels";
+            this.TwoWheelsButton.UseVisualStyleBackColor = false;
+            this.TwoWheelsButton.Click += new System.EventHandler(this.TwoWheelsButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1898, 825);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.checkBox1);
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.josh_berquist__4sWbzH5fp8_unsplash;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(735, 644);
+            this.Controls.Add(this.TwoWheelsButton);
+            this.Controls.Add(this.FourWheelsButton);
+            this.Controls.Add(this.madeBy);
+            this.Controls.Add(this.Line2);
+            this.Controls.Add(this.openLine);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -106,11 +119,12 @@
         }
 
         #endregion
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+
+        private System.Windows.Forms.Label openLine;
+        private System.Windows.Forms.Label Line2;
+        private System.Windows.Forms.Label madeBy;
+        private System.Windows.Forms.Button FourWheelsButton;
+        private System.Windows.Forms.Button TwoWheelsButton;
     }
 }
 

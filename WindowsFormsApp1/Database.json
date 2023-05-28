@@ -1,9 +1,30 @@
 ﻿{
   "Vehicles": [
     {
-      "brand": "Toyota",
-      "seats": "5",
-      "manufacutreYear": 2022
+      "FourWheels": [
+        {
+          "Private": [
+            {
+              "brand": "Toyota",
+              "model": "Corolla",
+              "seats": "5",
+              "year": 2022
+            },
+            {
+              "brand": "Honda",
+              "model": "Civic",
+              "seats": "5",
+              "year": 2020
+            },
+            {
+              "brand": "Peugeot",
+              "model": "208",
+              "seats": "5",
+              "year": 2014
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -10,7 +10,7 @@ namespace WindowsFormsApp1.Classes
     {
         
         int doorsNumber;
-        public FourWheels(int seats, string brand, int manufactureYear) : base(seats, brand, manufactureYear)
+        public FourWheels(string brand, string model, int seats, int year) : base(brand, model, seats, year)
         {
             
         }

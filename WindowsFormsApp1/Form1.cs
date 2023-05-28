@@ -17,29 +17,18 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        private void FourWheelsButton_Click(object sender, EventArgs e)
         {
-
+            FourWheelForm fourWheelForm = new FourWheelForm();
+            fourWheelForm.Show();
+            this.Hide();
         }
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void TwoWheelsButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            TwoWheelForm twoWheelForm = new TwoWheelForm(); 
+            twoWheelForm.Show();
+            this.Hide();
         }
     }
 }

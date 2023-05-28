@@ -8,14 +8,16 @@ namespace WindowsFormsApp1.Classes
 {
     public abstract class Vehicles
     {
-        int seats;
         string brand;
-        int manufactureYear;
-       public Vehicles(int seats, string brand, int manufactureYear)
+        string model;
+        int seats;
+        int year;
+       public Vehicles(string brand,string model, int seats, int year)
         {
-            this.seats = seats;
             this.brand = brand;
-            this.manufactureYear = manufactureYear;
+            this.model = model;
+            this.seats = seats;
+            this.year = year;
         }
     }
 
